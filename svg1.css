@@ -1,0 +1,165 @@
+.bar2{  
+    padding-left: 7vw;
+    padding-right: 7vw;
+    box-shadow: 0px 0px 10px 0px currentColor;
+    background-color: white; 
+    display: flex;
+}
+.s1{
+    width: 20%;
+    display: flex;
+    padding: 1.7vw;
+}
+.logo{
+    width: 4vw;
+    height: 4vw;
+    background-size: 4vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text{
+    
+    cursor: pointer;
+    padding-top: 0.7vw;
+    padding-left: 0.2vw;
+    font-size: 1.2vw;
+}
+.text>a{
+	text-decoration:none;
+	color: black;
+}
+.grid3{
+    margin:  4vw 10vw 10vw 10vw;
+    padding: 1vw;
+    background-color:  rgb(234, 241, 241);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr  ;
+    column-gap: 5vw; 
+}
+.grid3box1{
+    background-color: cadetblue;
+    border-radius: 2vw 2vw 00px 2vw;
+    box-shadow: 3px 3px 3px 3px rgb(216, 226, 226);
+}
+.grid3box{
+    color: black;
+    background-color: white;
+    border-radius: 2vw 2vw 00px 2vw;
+    box-shadow: 3px 3px 3px 3px rgb(211, 226, 226);
+}
+.grid3head{
+    padding: 1vw;
+}
+.grid3head>h3{
+    text-align: left;
+    padding-top: 1.4vw;
+    font-size: 1.5vw;
+}
+.grid3text{
+    text-align: left;
+    clear: left;
+    padding: 2vw;
+    font-size: 1.2vw;
+}
+.grid3svg{
+    float: left;
+    padding: 2vw;
+    font-size: 1.3vw;
+    color: rgb(209, 209, 35);
+}
+.section5{
+    padding-top: 3vw;
+    background-color: black;
+}
+.grid5{
+    margin: 0px 7vw 0px 7vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr  ;
+    column-gap: 3vw; 
+}
+.grid5box{
+    font-size: 1.7vw;
+    color: rgb(179, 184, 194);
+    padding: 1vw;
+    text-align: left;
+    background-color:black;
+}
+.textarea1>h3{
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+.grid5box>a{
+    text-decoration: none;
+    font-size: 1vw;
+    padding: 1vw;
+    text-align: left;
+    color: rgb(179, 184, 194);
+}
+.button2{
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.493);
+    font-size: 0.9vw;
+    border-radius: 2vw;
+    border-style: none;
+    margin-left: 1vw;
+    padding: 1vw 1.3vw 1vw 1.3vw;
+}
+.button3{
+    color: white;
+    border-radius: 2vw;
+    border-style: none;
+    border-color: cadetblue;
+    background-color:   cadetblue;
+    margin-left: 1vw;
+    margin-top: 1vw; 
+    padding: 1vw 2.3vw 1vw 2.3vw;
+}
+.button3>h4{
+    font-size: 0.9vw;
+}
+.logoo{
+    column-gap: 1vw;
+    padding-top:1vw;
+    display: flex;
+}
+.L1{
+    display: flex;
+}
+.logo1{
+    width: 1.7vw;
+    height: 1.7vw;
+    background-size: 1.7vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text4{
+    padding-top: 0.2vw;
+    font-size: 1vw;
+}
+.footer{
+    font-size: 1vw;
+    color: rgb(179, 184, 194);
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: black;
+    column-gap: 1vw;
+}
+.footer1{
+    padding: 2.4vw 2.4vw 2.4vw 7vw;
+    background-color: black;
+}
+.footer2{
+    text-align: right;
+    padding: 2.4vw 2.4vw 2.4vw 2.4vw;
+    background-color: black;
+}
+.footer3{
+    padding: 2.4vw 2.4vw 2.4vw 1vw;
+    background-color: black;
+}
+.grid5box>p{
+    font-size: 1vw;
+}

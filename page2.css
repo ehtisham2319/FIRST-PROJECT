@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.full{
+    width: 90%;
+    padding: 5vw 2vw 3vw 6vw;
+}
+.container{
+    width: 30%;
+    float: left;
+    background-color: white;
+}
+.container1{
+    box-shadow: 3px 3px 3px 3px  rgb(214, 231, 231);
+    border-radius: 0.5vw;
+    margin: 1.4vw 1.7vw 1.7vw 0px;
+    padding-bottom: 1vw;
+    width: 96%;
+    background-color: #FFFFFF;
+}
+.container2{
+    box-shadow: 3px 3px 3px 3px  rgb(214, 231, 231);
+    border-radius: 0.5vw;
+    margin: 1.7vw 1.7vw 1.7vw 0px;
+    width: 96%;
+    background-color: #FFFFFF;   
+    padding-bottom: 1vw;
+}
+.container3{
+    box-shadow: 3px 3px 3px 3px  rgb(214, 231, 231);
+    border-radius: 0.5vw;
+    margin: 1.7vw 1.7vw 1.7vw 0px;
+    width: 96%;
+    background-color: #FFFFFF;
+    padding-bottom: 2vw;
+}
+.section{
+    width: 65%;
+    background-color: white;
+    float: right;
+    }
+.box{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 95%;
+    margin: 1.4vw;
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px  rgb(214, 231, 231);
+    border-radius: 0.5vw;
+}
+.container1>h4,.container2>h4,.container3>h4{
+    font-weight: 500;
+    font-size: 1.3vw;
+    padding: 1vw;
+}
+.container1>.label{
+    margin: 0.6vw;
+    padding: 0.6vw;
+    background-color: #F3F3F3;
+}
+.label>label{
+    font-size: 1vw;
+    font-weight: 400;
+    padding-left: 1.3vw;
+}
+.label>input{   
+    width: 0.7vw;
+}
+.container2>.tags{
+    font-size: 1.11vw;
+    margin: 1vw;
+
+}
+.photo{
+    background-image: url(images/SKYLINE\ R33.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 1vw;
+    margin: 1vw 0vw 1vw 1vw;
+}
+.text{
+    padding: 1vw 1vw 1vw 2vw;   
+    background-color: white;   
+    margin: 1vw;
+}
+.text>p{
+    padding-top: 1vw;
+    padding-bottom: 4vw;
+    font-size: 1.01vw;
+}
+.text>h3{
+    font-size: 1.21vw;
+}
+.f1{    
+    font-weight: bolder;
+    font-size: 1.11vw;
+    color: #000000;
+}
+.f2{
+    font-weight: bold;
+    font-size: 1.11vw;
+    padding-left: 1.5vw;
+    color: #FF612F;
+}
+.f3{
+    font-weight: light;
+    font-size: 0.8vw;
+    cursor: pointer;
+    margin-left: 8vw;
+    padding: 0.9vw 2vw 0.9vw 2vw;
+    border: 1px solid #1EB4AB;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background-color: #1EB4AB;
+}
+.container3>label>h3{
+    font-weight:500;
+    padding-left: 0.7vw;
+    font-size: 1vw;
+    margin-top: 1.4vw;
+}
+.container3>input{
+    padding-left: 2vw;
+    font-size: 1vw;
+    font-weight: 500;
+    margin-left: 0.7vw;
+    margin-top: 0.7vw;
+    width: 22vw;
+    height: 3vw;
+    background-color: #f3dcdc;
+    border-style: none;
+    border-radius: 0.4vw;
+}
+.container3>button{
+    color: white;
+    background-color: #1EB4AB;
+    margin-left: 4vw;
+    margin-top: 3vw;
+    padding: 1vw 6vw 1vw 6vw;
+    border: none #1EB4AB;
+    border-radius: 2vw;
+    font-size: 1vw;
+}

@@ -1,0 +1,75 @@
+.section5{
+    clear: both;
+    padding-top: 3vw;
+    background-color: black;
+}
+.grid5{
+    margin: 0px 7vw 0px 7vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr  ;
+    column-gap: 3vw; 
+}
+.grid5box{
+    font-size: 1.7vw;
+    color: rgb(179, 184, 194);
+    padding: 1vw;
+    text-align: left;
+    background-color:black;
+}
+.textarea1>h3{
+    font-weight: 400;
+    font-size: 1.2vw;
+}
+.grid5box>a{
+    text-decoration: none;
+    font-size: 1vw;
+    padding: 1vw;
+    text-align: left;
+    color: rgb(179, 184, 194);
+}
+
+.logoo{
+    column-gap: 1vw;
+    padding-top:1vw;
+    display: flex;
+}
+.L1{
+    display: flex;
+}
+.logo1{
+    width: 1.7vw;
+    height: 1.7vw;
+    background-size: 1.7vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text1{
+    padding-top: 0.2vw;
+    font-size: 1vw;
+}
+.footer{
+    font-size: 1vw;
+    color: rgb(179, 184, 194);
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: black;
+    column-gap: 1vw;
+}
+.footer1{
+    padding: 2.4vw 2.4vw 2.4vw 7vw;
+    background-color: black;
+}
+.footer2{
+    text-align: right;
+    padding: 2.4vw 2.4vw 2.4vw 2.4vw;
+    background-color: black;
+}
+.footer3{
+    padding: 2.4vw 2.4vw 2.4vw 1vw;
+    background-color: black;
+}
+.grid5box>p{
+    font-size: 1vw;
+}

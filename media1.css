@@ -1,0 +1,149 @@
+@media (max-width:600px) {
+    .text{
+        display: none;
+    }
+    .logo{
+        padding: 2vw;
+        font-size: 4vw;
+    }
+    .section1{
+        margin-top: 0;
+    }
+    .section1-text{
+        line-height: 3.5vw;
+    }
+    .section1-text>h2{
+        font-size: 3vw;
+    }
+    .section1-text>h4{
+        font-size: 2vw;
+    }
+    .grid1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 2vw;
+        row-gap: 3vw;
+        padding-left: 1vw;
+    }
+    .text1{
+        font-weight: bold;
+        line-height: 3vw;
+        padding: 0.7vw;
+        font-size: 2vw;
+        
+    }
+    .grid2{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        column-gap: 3vw;
+        row-gap: 3vw;
+        padding-left: 1vw;
+    }
+    .box2{
+        height: 30vw;
+    }
+    .item2{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3; 
+        height: unset;  
+    }
+    .item6{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .section3-text{
+        font-size: 3vw;
+    }
+    .section3-para{
+        font-size: 2vw;
+    }
+    .section4-text>h2{
+        font-size: 3vw;
+    }
+    .section4-text>h4{
+        font-size: 2vw;
+    }
+    .grid3box1{
+        display: none;
+    }
+    .grid3{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr  ;
+        column-gap: 5vw; 
+    }
+    .grid3head>h3{
+        text-align: left;
+        padding-top: 2vw;
+        font-size: 2.3vw;
+    }
+    .clip{
+        width: 10vw;
+    }
+    .grid3text{
+        padding: 2vw;
+        font-size: 2vw;
+    }
+    .grid3svg{
+        font-size: 2vw;
+    }
+    .grid5{
+        grid-template-columns: 2fr 1fr ;
+        grid-template-rows: 1fr 1fr  ;
+        column-gap: 3vw; 
+    }
+    .grid5box{
+        padding: 1vw 4vw 2vw 4vw;
+        font-size: 3vw;
+    }
+    .textarea1>h3{
+        font-weight: 400;
+        font-size: 2vw;
+    }
+    .textarea1{
+        padding-top: 4vw;
+    }
+    .grid5box>a{
+        font-size: 2vw;
+        padding: 1vw;
+    }
+    .grid5box>p{
+        padding-top: 2.2vw;
+        font-size: 2vw;
+    }
+    .logoo{
+        display: none;
+    }
+    .button2{
+        font-size: 2vw;
+        border-style: none;
+        border-radius: 5vw;
+        padding: 1.5vw 1.8vw 1.5vw 1.8vw;
+    }
+    .button3{
+        color: white;
+        border-radius: 5vw;
+        border-style: none;
+        padding: 1.5vw 3.9vw 1.5vw 3.9vw;
+    }
+    .button3>h4{
+        font-size: 2vw;
+    }
+    .footer{
+        font-size: 2vw;
+    }
+    .s3{
+        margin-right: 9vw;
+    }
+    .footer2{
+        display: none;
+    }
+    .footer3{
+        padding-left: 0vw;
+    }
+    .footer{
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}

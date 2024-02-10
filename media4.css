@@ -1,0 +1,108 @@
+@media (max-width:600px) {
+    .container{
+        margin-left: 0;
+        clear: both;
+        width: 100%;
+    }
+    .section{
+        width: 91.7%;
+    }
+    .section>h1{
+        font-size: 4vw;
+    }
+    .p1{
+        font-weight: 400;
+        line-height: 3.2vw;
+        font-size: 2.7vw;
+        padding-top: 1.5vw;
+    }
+    .container1>h4,.container2>h4,.container3>h4{
+        font-size: 4vw;
+    }
+    .logo3{
+        margin-right: 6vw;
+    }
+    .text3>h2{
+        font-weight: 400;
+        font-size: 3vw;
+    }
+    .container2>.tags{
+        font-size: 3vw;
+    }
+    .container3>label>h3{
+        padding-left: 2vw;
+        font-size: 2.5vw;
+        margin-top: 2vw;
+    }
+    .container3>input{
+        margin-left: 2vw;
+        margin-top: 2vw;
+        width: 78vw;
+        height: 5vw;
+    }
+    .container3>button{
+        margin-left: 29vw;
+        margin-top: 5vw;
+        border-radius: 5vw;
+        font-size: 3vw;
+    }
+    
+    .grid5{
+        grid-template-columns: 2fr 1fr ;
+        grid-template-rows: 1fr 1fr  ;
+        column-gap: 3vw; 
+    }
+    .grid5box{
+        padding: 1vw 4vw 2vw 4vw;
+        font-size: 3vw;
+    }
+    .textarea1>h3{
+        font-weight: 400;
+        font-size: 2vw;
+    }
+    .textarea1{
+        padding-top: 4vw;
+    }
+    .grid5box>a{
+        font-size: 2vw;
+        padding: 1vw;
+    }
+    .grid5box>p{
+        padding-top: 2.2vw;
+        font-size: 2vw;
+    }
+    .logoo{
+        display: none;
+    }
+    .button2{
+        font-size: 2vw;
+        border-style: none;
+        border-radius: 5vw;
+        padding: 1.5vw 1.8vw 1.5vw 1.8vw;
+    }
+    .button3{
+        color: white;
+        border-radius: 5vw;
+        border-style: none;
+        padding: 1.5vw 3.9vw 1.5vw 3.9vw;
+    }
+    .button3>h4{
+        font-size: 2vw;
+    }
+    .footer{
+        font-size: 2vw;
+    }
+    .s3{
+        margin-right: 9vw;
+    }
+    .footer2{
+        display: none;
+    }
+    .footer3{
+        padding-left: 0vw;
+    }
+    .footer{
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
